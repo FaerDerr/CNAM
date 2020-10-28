@@ -6,7 +6,7 @@ namespace Minivile
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Pti miniville là ?");
         }
     }
 }
