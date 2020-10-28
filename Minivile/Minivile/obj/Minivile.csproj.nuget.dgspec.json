@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Minivile.csproj": {}
+    "C:\\Users\\logoi\\Desktop\\Git hub\\CNAM\\Minivile\\Minivile\\Minivile.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Minivile.csproj": {
+    "C:\\Users\\logoi\\Desktop\\Git hub\\CNAM\\Minivile\\Minivile\\Minivile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
+        "projectUniqueName": "C:\\Users\\logoi\\Desktop\\Git hub\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
         "projectName": "Minivile",
-        "projectPath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
-        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\obj\\",
+        "projectPath": "C:\\Users\\logoi\\Desktop\\Git hub\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
+        "packagesPath": "C:\\Users\\logoi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\logoi\\Desktop\\Git hub\\CNAM\\Minivile\\Minivile\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\logoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
