@@ -11,7 +11,11 @@ namespace Miniville
 
         public int face; /// Face sur laquelle un lancer va tomber lors d'un lancer
 
+<<<<<<< HEAD
         public Die() : this(6) { } ///Constructeur chainé donnant comme valeur de base 
+=======
+        public Die() : this(6) { } ///Constructeur chainé donnant comme valeur de base 6
+>>>>>>> Marco
         public Die(int faces) { nbFace = faces; } /// Constructeur qui définit le nombre de faces 
         
         public void Lancer() /// Méthode qui attribue à la variable face un nombre aléatoire entre 1 et la nombre de faces du dé
