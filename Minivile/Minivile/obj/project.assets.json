@@ -8,19 +8,53 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\mathe\\.nuget\\packages\\": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\ggame\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\vaqui\\.nuget\\packages\\": {},
+>>>>>>> 263123ec64f677ab3fa2ba6a51eb37b510ab2544
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+>>>>>>> bdfce4a7f8c19b8054736d98a5f180721831388b
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
+      "projectName": "Miniville",
+      "projectPath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
+      "packagesPath": "C:\\Users\\ggame\\.nuget\\packages\\",
+      "outputPath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\obj\\",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "E:\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
+>>>>>>> bdfce4a7f8c19b8054736d98a5f180721831388b
       "projectName": "Miniville",
       "projectPath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\obj\\",
+<<<<<<< HEAD
+=======
+>>>>>>> 20a2a125b305329f82deb873298cdef96ed2310f
+>>>>>>> 263123ec64f677ab3fa2ba6a51eb37b510ab2544
+>>>>>>> bdfce4a7f8c19b8054736d98a5f180721831388b
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+        "C:\\Users\\ggame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\vaqui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 263123ec64f677ab3fa2ba6a51eb37b510ab2544
+>>>>>>> bdfce4a7f8c19b8054736d98a5f180721831388b
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,13 +86,31 @@
           "net48"
         ],
         "assetTargetFallback": true,
+<<<<<<< HEAD
         "warn": true,
+=======
+<<<<<<< HEAD
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
+>>>>>>> bdfce4a7f8c19b8054736d98a5f180721831388b
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+=======
+        "warn": true
+>>>>>>> 263123ec64f677ab3fa2ba6a51eb37b510ab2544
+>>>>>>> bdfce4a7f8c19b8054736d98a5f180721831388b
       }
     }
   }
