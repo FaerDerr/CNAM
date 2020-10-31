@@ -69,7 +69,7 @@ namespace Miniville
                 Console.WriteLine("LE JOUEUR {0} GAGNE LA PARTIE AVEC {1} PIECE", joueurHumain.joueur.ToUpper(), joueurHumain.argent);
             }
             else
-            {
+              {
                 Console.WriteLine("LE JEU SE CONCLUE SUR UNE EGALITE !? RT SI C TRIST");
             }
 
