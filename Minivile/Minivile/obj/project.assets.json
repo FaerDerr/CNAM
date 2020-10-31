@@ -8,47 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\ggame\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\vaqui\\.nuget\\packages\\": {},
->>>>>>> 263123ec64f677ab3fa2ba6a51eb37b510ab2544
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
       "projectName": "Miniville",
       "projectPath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
       "packagesPath": "C:\\Users\\ggame\\.nuget\\packages\\",
       "outputPath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\obj\\",
-=======
-<<<<<<< HEAD
-      "projectUniqueName": "E:\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
-      "projectName": "Miniville",
-      "projectPath": "E:\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
-      "packagesPath": "C:\\Users\\vaqui\\.nuget\\packages\\",
-      "outputPath": "E:\\Github\\CNAM\\Minivile\\Minivile\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
-      "projectName": "Minivile",
-      "projectPath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
-      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\obj\\",
->>>>>>> 20a2a125b305329f82deb873298cdef96ed2310f
->>>>>>> 263123ec64f677ab3fa2ba6a51eb37b510ab2544
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\Users\\ggame\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\vaqui\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 263123ec64f677ab3fa2ba6a51eb37b510ab2544
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -72,10 +48,14 @@
     "frameworks": {
       "netcoreapp3.1": {
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-<<<<<<< HEAD
         "warn": true,
         "downloadDependencies": [
           {
@@ -89,10 +69,15 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
-=======
-        "warn": true
->>>>>>> 263123ec64f677ab3fa2ba6a51eb37b510ab2544
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache E:\\Github repositories\\CNAM\\Minivile\\Minivile\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
