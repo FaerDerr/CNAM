@@ -10,6 +10,7 @@ namespace Miniville
         {
 
             Game g = new Game();
+            g.Run();
 
         }
     }
