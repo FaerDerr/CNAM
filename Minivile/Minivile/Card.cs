@@ -2,7 +2,7 @@
 
 namespace MiniVille
 {
-	public struct Cards
+	public struct Card
 	{
 		public int Id { get; set; }
 		public string Color { get; set; }

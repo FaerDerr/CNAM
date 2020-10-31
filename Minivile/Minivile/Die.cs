@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Minivile
+namespace Miniville
 {
     class Die
     {
