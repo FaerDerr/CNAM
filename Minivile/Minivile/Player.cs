@@ -73,7 +73,7 @@ namespace Miniville
             
         }
 
-        public void Regarder(int faceDe, string couleurInterdite)
+        public void Regarder(int faceDe, string couleurInterdite, Player ennemi )
         {
             //Regarde la main du joueur en cours.        
             foreach (Card c in main)
@@ -81,15 +81,42 @@ namespace Miniville
                 //Pour chaque carte, si la mauvaise couleur n'est pas présente et qu'il s'agit du bon dé, son effet s'applique.
                 if (c.dice == faceDe && couleurInterdite != c.color)
                 {
-
+                    switch (c.id) //On applique les différents effets selon l'identifiant des cartes possédés
+                    {
+                        case 1:
+                            argent += 1;
+                            break;
+                        case 2:
+                            argent += 1;
+                            break;
+                        case 3:
+                            argent += 2;
+                            break;
+                        case 4:
+                            argent += 1;
+                            ennemi.argent -= 1;
+                            break;
+                        case 5:
+                            argent += 3;
+                            break;
+                        case 6:
+                            argent += 1;
+                            break;
+                        case 7:
+                            argent += 2;
+                            ennemi.argent -= 2;
+                            break;
+                        case 8:
+                            argent += 4;
+                            break;
+                    }
                 }
 
             }
 
-            //if carte ID == 4 Game.joueurMachine.argent += 1 tatata Game.joueurHumain.argent -= 1;
         }
 
-        
+
 
     }
 }
