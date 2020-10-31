@@ -1,22 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\ggame\\Desktop\\Enjmin\\Prog\\Minivilles\\CNAM\\Minivile\\Minivile\\Minivile.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\ggame\\Desktop\\Enjmin\\Prog\\Minivilles\\CNAM\\Minivile\\Minivile\\Minivile.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\ggame\\Desktop\\Enjmin\\Prog\\Minivilles\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
-        "projectName": "Minivile",
-        "projectPath": "C:\\Users\\ggame\\Desktop\\Enjmin\\Prog\\Minivilles\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
-        "packagesPath": "C:\\Users\\ggame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ggame\\Desktop\\Enjmin\\Prog\\Minivilles\\CNAM\\Minivile\\Minivile\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\ggame\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
     "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Minivile.csproj": {}
   },
   "projects": {
@@ -31,7 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 05af2ce434bff09f071aba56063babce6a33da42
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
