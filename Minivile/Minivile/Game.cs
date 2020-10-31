@@ -9,23 +9,25 @@ namespace Miniville
         public Player joueurHumain;
         public Player joueurMachine;
 
-        public Die de;
+        public Die de = new Die();
+        public Pile pile = new Pile();
 
         public Game()
         {
             joueurHumain = new Player("humain", 0);
             joueurMachine = new Player("ia", 0);
+            
         }
 
         public void Run()
         {
-            while (true) {
+            while (joueurHumain.argent < 20 || joueurMachine.argent < 20) {
                 //tour IA
                 Lancer();
                 joueurHumain.lanceur = true;
                 joueurMachine.Regarder(de.face, "vert");
                 joueurHumain.Regarder(de.face, "rouge");
-                joueurHumain.Jouer();
+                joueurHumain.Jouer(pile.pileCards);
                 joueurHumain.lanceur = false;
 
                 //tour IA
@@ -33,7 +35,7 @@ namespace Miniville
                 joueurMachine.lanceur = true;
                 joueurHumain.Regarder(de.face, "vert");
                 joueurMachine.Regarder(de.face, "rouge");
-                joueurMachine.Jouer();
+                joueurMachine.Jouer(pile.pileCards);
                 joueurMachine.lanceur = false;
 
                 //IDEM, MAIS AVEC HUMAIN -> MACHINE
