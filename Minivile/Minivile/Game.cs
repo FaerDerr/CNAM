@@ -22,19 +22,19 @@ namespace Miniville
         public void Run()
         {
             while (joueurHumain.argent < 20 || joueurMachine.argent < 20) {
-                //tour IA
+                //tour Joueur
                 Lancer();
                 joueurHumain.lanceur = true;
-                joueurMachine.Regarder(de.face, "vert");
-                joueurHumain.Regarder(de.face, "rouge");
+                joueurMachine.Regarder(de.face, "vert", joueurHumain);
+                joueurHumain.Regarder(de.face, "rouge", joueurMachine);
                 joueurHumain.Jouer(pile.pileCards);
                 joueurHumain.lanceur = false;
 
                 //tour IA
                 Lancer();
                 joueurMachine.lanceur = true;
-                joueurHumain.Regarder(de.face, "vert");
-                joueurMachine.Regarder(de.face, "rouge");
+                joueurHumain.Regarder(de.face, "vert", joueurMachine);
+                joueurMachine.Regarder(de.face, "rouge",joueurHumain);
                 joueurMachine.Jouer(pile.pileCards);
                 joueurMachine.lanceur = false;
 
