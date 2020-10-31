@@ -8,29 +8,11 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\ggame\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
-=======
     "C:\\Users\\mathe\\.nuget\\packages\\": {}
->>>>>>> d26117add4fef56d459c24aeedde55333045be54
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
-      "projectName": "Minivile",
-      "projectPath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
-      "packagesPath": "C:\\Users\\ggame\\.nuget\\packages\\",
-      "outputPath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\obj\\",
-      "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
-      "configFilePaths": [
-        "C:\\Users\\ggame\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
       "projectUniqueName": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
       "projectName": "Miniville",
       "projectPath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
@@ -39,7 +21,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> d26117add4fef56d459c24aeedde55333045be54
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -72,18 +53,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -92,7 +67,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache E:\\Github repositories\\CNAM\\Minivile\\Minivile\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problème de lecture du fichier cache C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }
