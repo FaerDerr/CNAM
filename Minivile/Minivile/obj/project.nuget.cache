@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "E:\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
