@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Miniville.csproj": {}
   },
   "projects": {
@@ -12,12 +13,26 @@
         "projectPath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
         "packagesPath": "C:\\Users\\ggame\\.nuget\\packages\\",
         "outputPath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\obj\\",
+=======
+    "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
+        "projectName": "Miniville",
+        "projectPath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\obj\\",
+>>>>>>> c4cf27100c65b95ff422444245bb638f4577af44
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\ggame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> c4cf27100c65b95ff422444245bb638f4577af44
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,18 +65,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+>>>>>>> c4cf27100c65b95ff422444245bb638f4577af44
         }
       }
     }
