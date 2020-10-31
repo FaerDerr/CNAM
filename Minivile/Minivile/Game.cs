@@ -6,9 +6,11 @@ namespace Miniville
 {
     class Game
     {
+        //Les deux objets Joueurs
         public Player joueurHumain;
         public Player joueurMachine;
 
+        //Création du dé, de la pile de carte à jouer, et des deux mains (plateaux de jeu) des joueurs
         public Die de = new Die();
         public Pile pile = new Pile();
         public List<Card> mainJoueur;
@@ -16,6 +18,7 @@ namespace Miniville
 
         public Game()
         {
+            //Création des deux objets joueurs, et remplissage des deux mains avec les deux cartes de début.
             mainJoueur = new List<Card>();
             mainJoueur.Add(new Card(1, "Bleu", 1, "Champs de blé", "Recevez 1 pièce", 1, 1));
             mainJoueur.Add(new Card(3, "Vert", 1, "Boulangerie", "Recevez 2 pièces", 2, 2));
@@ -52,6 +55,7 @@ namespace Miniville
 
             Console.Clear();
 
+            //Victoire ! Mais de qui ?
             if (joueurHumain.argent >= 20 && joueurMachine.argent < 20)
             {
                 Console.WriteLine("LE JOUEUR {0} GAGNE LA PARTIE AVEC {1} PIECE", joueurHumain.joueur.ToUpper(), joueurHumain.argent);
@@ -69,7 +73,7 @@ namespace Miniville
                 Console.WriteLine("LE JOUEUR {0} GAGNE LA PARTIE AVEC {1} PIECE", joueurHumain.joueur.ToUpper(), joueurHumain.argent);
             }
             else
-              {
+            {
                 Console.WriteLine("LE JEU SE CONCLUE SUR UNE EGALITE !? RT SI C TRIST");
             }
 
@@ -77,10 +81,12 @@ namespace Miniville
 
         public int Lancer()
         {
+            //Lancer le dé pour ce tour
             de.Lancer();
             return de.face;
         }
 
+        //Récapitulatif du tour en cours
         public void Resultats(Player player)
         {
             Console.Clear();
@@ -109,6 +115,7 @@ namespace Miniville
 
         }
 
+        //Affichage du plateau de jeu
         public void Tour(Player player) 
         {
             Console.Clear();
