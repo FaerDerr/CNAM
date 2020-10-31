@@ -1,12 +1,16 @@
 ﻿using System;
 
-namespace Minivile
+namespace Miniville
 {
+
     class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Pti miniville là ?");
+
+            Game g = new Game();
+
         }
     }
 }

@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "FdKLgF2ZMIWn2vuNQbKofL+OEr1ObUzKJucPn/ABqdSa8Asxa9GK28esse3FQr2hJVGpP6CPldgwFfKIngV8xA==",
   "success": true,
   "projectFilePath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
@@ -14,4 +15,11 @@
       "message": "Problème de lecture du fichier cache E:\\Github repositories\\CNAM\\Minivile\\Minivile\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
+=======
+  "dgSpecHash": "qIemH2Z3k0G8gQgqxrRIAQ8IPZE75zj1y8F8P6I72B0QUXl2kon+flJVcV5S6T/e3ySfZIZQJ7kbHpix64xAZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> d26117add4fef56d459c24aeedde55333045be54
 }
