@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "E:\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "E:\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
         "packagesPath": "C:\\Users\\vaqui\\.nuget\\packages\\",
         "outputPath": "E:\\Github\\CNAM\\Minivile\\Minivile\\obj\\",
+=======
+    "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Miniville.csproj": {}
+  },
+  "projects": {
+    "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Miniville.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
+        "projectName": "Miniville",
+        "projectPath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
+        "packagesPath": "C:\\Users\\ggame\\.nuget\\packages\\",
+        "outputPath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\obj\\",
+>>>>>>> 20a2a125b305329f82deb873298cdef96ed2310f
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\vaqui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\ggame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 20a2a125b305329f82deb873298cdef96ed2310f
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,12 +68,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+>>>>>>> 20a2a125b305329f82deb873298cdef96ed2310f
         }
       }
     }

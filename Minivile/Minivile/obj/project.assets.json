@@ -14,11 +14,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
       "projectName": "Miniville",
       "projectPath": "E:\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
       "packagesPath": "C:\\Users\\vaqui\\.nuget\\packages\\",
       "outputPath": "E:\\Github\\CNAM\\Minivile\\Minivile\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
+      "projectName": "Minivile",
+      "projectPath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Minivile.csproj",
+      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\obj\\",
+>>>>>>> 20a2a125b305329f82deb873298cdef96ed2310f
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
