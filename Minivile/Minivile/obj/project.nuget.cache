@@ -1,17 +1,28 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "qIemH2Z3k0G8gQgqxrRIAQ8IPZE75zj1y8F8P6I72B0QUXl2kon+flJVcV5S6T/e3ySfZIZQJ7kbHpix64xAZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
+  "expectedPackageFiles": [],
+=======
   "dgSpecHash": "j57pZFi1OW2M8DiOllMjKdPwkG2k6kVRcR/IEw+S64cr4fwPnvoFEQXgQHYUtDhB4xBHV6HQtgGv0ui1u52aMQ==",
   "success": true,
   "projectFilePath": "E:\\Github repositories\\CNAM\\Minivile\\Minivile\\Miniville.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ggame\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
+>>>>>>> 418da2b8bb5b8142a3be9dd00f08eb392fe8b2e9
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
+      "message": "Problème de lecture du fichier cache C:\\Users\\mathe\\Cnam\\Prog C#\\Github\\CNAM\\Minivile\\Minivile\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
       "message": "Problème de lecture du fichier cache E:\\Github repositories\\CNAM\\Minivile\\Minivile\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> 418da2b8bb5b8142a3be9dd00f08eb392fe8b2e9
     }
   ]
 }
