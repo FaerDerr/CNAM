@@ -7,7 +7,6 @@ namespace Miniville
     class Player
     {
         public string joueur; // humain ou Ia
-        public bool lanceur; // Est-il le lanceur ?
         public int argent;
         
 
@@ -16,7 +15,6 @@ namespace Miniville
         public Player(string type, int dollar, List<Card> mains)
         {
             this.joueur = type;
-            this.lanceur = false;
             this.argent = dollar;
             main = mains;
 
@@ -27,6 +25,7 @@ namespace Miniville
         {
             //regarder la pile de carte, entrer l'index de la carte qu'on veut jouer
             string i;
+
             while (true)
             {
                 //Si le joueur est humain, lui laisser le choix
@@ -60,7 +59,7 @@ namespace Miniville
                 }
                 else
                 {
-                    //Si on a l'argent nécessaire, on sort de la boucle
+                    //Si on a l'argent nécessaire, on sort de la boucle (-1 parce que "0" ne fais pas partie de la liste)
                     if (this.argent - pile[int.Parse(i) - 1].cost >= 0)
                     {
                         //On ajoute la nouvelle carte à la main, en utilisant l'index de cette dernière
@@ -76,7 +75,7 @@ namespace Miniville
             }  
         }
 
-        public void Regarder(int faceDe, string couleurInterdite, Player ennemi )
+        public void Regarder(int faceDe, string couleurInterdite, Player ennemi)
         {
             Console.WriteLine("> {0} :", this.joueur.ToUpper());
 

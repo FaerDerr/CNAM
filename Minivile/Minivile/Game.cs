@@ -36,21 +36,21 @@ namespace Miniville
                 //tour Joueur
                 Console.Clear();
                 Lancer();
-                joueurHumain.lanceur = true;
+
                 Tour(joueurHumain);
                 Resultats(joueurHumain);
 
                 joueurHumain.Jouer(pile.pileCards);
-                joueurHumain.lanceur = false;
+
 
                 //tour IA
                 Lancer();
-                joueurMachine.lanceur = true;
+
                 Tour(joueurMachine);
                 Resultats(joueurMachine);
 
                 joueurMachine.Jouer(pile.pileCards);
-                joueurMachine.lanceur = false;
+
             }
 
             Console.Clear();
@@ -104,9 +104,9 @@ namespace Miniville
             {
                 Console.WriteLine("---                     C'est le tour de L'IA !                     ---");
                 Console.WriteLine("---                     LE DE A FAIT UN {0} !                       ---\n", de.face);
-                joueurMachine.Regarder(de.face, "vert", joueurMachine);
+                joueurHumain.Regarder(de.face, "vert", joueurMachine);
                 Console.WriteLine();
-                joueurHumain.Regarder(de.face, "rouge", joueurHumain);
+                joueurMachine.Regarder(de.face, "rouge", joueurHumain);
                 Console.WriteLine("\nAppuyer sur entrée pour finir le tour !");
                 
             }
