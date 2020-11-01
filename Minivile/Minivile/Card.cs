@@ -25,68 +25,12 @@ namespace Miniville
 			this.gain = gainC;
         }
 
-		/*
-		public int AppliquerEffet(Player p)
+        public override string ToString()
         {
-			if (id == 1 || id == 2 || id == 6)
-				p.gain += 1;
-
-			else if (id == 3)
-				p.gain += 2;
-
-			else if (id == 5)
-				p.gain += 3;
-
-			else if (id == 8)
-				p.gain += 4;
+			string sortie = string.Format("{0} ({1} : {2} (sur un {3} du dé)", this.name, this.color, this.effect, this.dice);
+			return sortie;
         }
-
-		public void AppliquerCaféOuResto(Player a, Player b)
-        {
-			foreach(Card c in a.main)
-            {
-				if(c.id == 4)
-                {
-					if (!a.lanceur)
-                    {
-						a.gain += 1;
-						b.gain -= 1;
-                    }
-                }
-
-				if(c.id == 6)
-                {
-                    if (!a.lanceur)
-                    {
-						a.gain += 2;
-						b.gain -= 2;
-					}
-                }
-            }
-
-			foreach(Card c in b.main)
-            {
-				if (c.id == 4)
-				{
-					if (!b.lanceur)
-					{
-						a.gain -= 1;
-						b.gain += 1;
-					}
-				}
-
-				if (c.id == 6)
-				{
-					if (!b.lanceur)
-					{
-						a.gain -= 2;
-						b.gain += 2;
-					}
-				}
-			}
-        }
-		*/
-	}
+    }
 
 
 
