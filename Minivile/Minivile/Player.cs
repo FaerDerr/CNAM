@@ -121,6 +121,9 @@ namespace Miniville
                             this.argent += 4;
                             Console.WriteLine(" - Le Stade rapporte 4 pièces !", this.joueur);
                             break;
+                        default:
+                            break;
+
                     }
                 }
             }
